@@ -1,0 +1,80 @@
+{
+  "schema": 1,
+  "app_id": "com.example.planik",
+  "latest_version": "1.4.0",
+  "latest_build": 14,
+  "min_version": "1.2.0",
+  "min_build": 8,
+  "force": false,
+  "title": "نسخهٔ جدید پلنیک آماده است",
+  "message": "برای دریافت آخرین امکانات و رفع مشکلات، پلنیک را به‌روزرسانی کن.",
+  "downloads": [
+    {
+      "id": "myket",
+      "label": "دانلود از مایکت",
+      "url": "myket://details?id=com.example.planik",
+      "fallback_url": "https://myket.ir/app/com.example.planik",
+      "icon": "assets/icons/myket.png",
+      "icon_dark": "assets/icons/myket_dark_mode.png",
+      "material_icon": "store",
+      "style": "primary",
+      "order": 1
+    },
+    {
+      "id": "bazaar",
+      "label": "دانلود از کافه‌بازار",
+      "url": "bazaar://details?id=com.example.planik",
+      "fallback_url": "https://cafebazaar.ir/app/com.example.planik",
+      "icon": "assets/icons/bazaar.png",
+      "icon_dark": "assets/icons/bazaar_dark_mode.png",
+      "material_icon": "shop",
+      "style": "secondary",
+      "order": 2
+    },
+    {
+      "id": "direct",
+      "label": "دانلود مستقیم فایل نصب",
+      "url": "https://your-host.ir/planik/planik-latest.apk",
+      "icon": "assets/icons/download.png",
+      "icon_dark": "assets/icons/download_dark_mode.png",
+      "material_icon": "download",
+      "style": "ghost",
+      "order": 3
+    }
+  ],
+  "releases": [
+    {
+      "version": "1.4.0",
+      "build": 14,
+      "date": "۲۰ آبان ۱۴۰۵",
+      "title": "نسخهٔ ۱.۴.۰",
+      "changes": [
+        { "type": "new", "text": "حالت تاریک (Dark Mode) با دکمهٔ خورشید/ماه" },
+        { "type": "new", "text": "جابجایی صفحه‌ها با کشیدن به چپ و راست" },
+        { "type": "improved", "text": "انیمیشن نرم حلقهٔ درصد پیشرفت" },
+        { "type": "fixed", "text": "رفع مشکل نمایش گزارش روزانه" }
+      ]
+    },
+    {
+      "version": "1.3.0",
+      "build": 11,
+      "date": "۱۰ آبان ۱۴۰۵",
+      "title": "نسخهٔ ۱.۳.۰",
+      "changes": [
+        { "type": "new", "text": "تایمر تسک و استراحت با نوتیفیکیشن" },
+        { "type": "new", "text": "تقسیم خودکار تسک‌های عبوری از نیمه‌شب در CSV" },
+        { "type": "improved", "text": "دقت بازه‌های زمانی به ۵ دقیقه" }
+      ]
+    },
+    {
+      "version": "1.2.0",
+      "build": 8,
+      "date": "۱ آبان ۱۴۰۵",
+      "title": "نسخهٔ ۱.۲.۰",
+      "changes": [
+        { "type": "new", "text": "ورود برنامهٔ هفتگی از فایل CSV مشاور" },
+        { "type": "fixed", "text": "رفع باگ شناسایی روز سه‌شنبه" }
+      ]
+    }
+  ]
+}
